@@ -1,27 +1,27 @@
 
-*Facial and Hand Landmark Detection*
+**Facial and Hand Landmark Detection**
 
 *This project demonstrates real-time facial and hand landmark detection using the Mediapipe library in Python. The program captures video from the default camera, detects facial landmarks, and overlays them on the video feed. Additionally, it detects and overlays landmarks for both right and left hands.*
 
-*Requirements*
+**Requirements**
 1. Python 3.x
 2. OpenCV (cv2)
 3. Mediapipe
 
-*Installation
+**Installation**
 You can install the required libraries using pip:
 
-pip install opencv-python
-pip install mediapipe
+```pip install opencv-python```
+```pip install mediapipe```
 
 
-*Usage
+**Usage**
 1. Run the script.
 2. Position yourself in front of the camera.
 3. Facial and hand landmarks will be detected and displayed in real-time.
 
 
-*Description
+**Description**
 1. The program initializes the Holistic model from the Mediapipe library with specified minimum detection and tracking confidences.
 2. It captures video from the default camera (0).
 3. The frame is resized for better visualization.
@@ -33,7 +33,7 @@ pip install mediapipe
 9. Press 'q' to exit the program.
 
 
-*Code Structure
+**Code Structure**
 1. Import Libraries: Import necessary libraries including OpenCV, Mediapipe, and time.
 2. Initialize Holistic Model: Initialize the Holistic model from Mediapipe.
 3. Capture Video: Connect to the default camera and capture frames.
