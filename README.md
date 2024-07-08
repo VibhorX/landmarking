@@ -32,6 +32,7 @@ You can install the required libraries using pip:
 8. Frames per second (FPS) are calculated and displayed on the video feed.
 9. Press 'q' to exit the program.
 
+![Picture2](https://github.com/VibhorX/landmarking/assets/110552245/20009339-fc3a-4b8d-8a2c-50b1db017046)
 
 **Code Structure**
 1. Import Libraries: Import necessary libraries including OpenCV, Mediapipe, and time.
